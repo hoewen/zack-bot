@@ -186,6 +186,34 @@ client.on('message', message => {
                message.channel.send("REAL")
   	}
 });
+
+client.on('message', message => {
+     if (message.author.bot) return;
+     if(message.content.toLowerCase().includes("i love you")) {
+               message.channel.send(":')")
+  	}
+});
+
+client.on('message', message => {
+     if (message.author.bot) return;
+     if(message.content.toLowerCase().includes("i love you")) {
+               message.channel.send(":')")
+  	}
+});
+
+client.on('message', message => {
+     if (message.author.bot) return;
+     if(message.content.toLowerCase().includes("kailyn")) {
+               message.channel.send("DISGUSTING")
+  	}
+});
+
+client.on('message', message => {
+     if (message.author.bot) return;
+     if(message.content.toLowerCase().includes("666")) {
+               message.channel.send("mood")
+  	}
+});
       
 
 // THIS  MUST  BE  THIS  WAY

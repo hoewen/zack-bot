@@ -162,7 +162,7 @@ client.on('message', message => {
 client.on('message', message => {
      if (message.author.bot) return;
      if(message.content.toLowerCase().includes("zack")) {
-               message.channel.send("it be me)
+               message.channel.send("it be me")
   	}
 });
          

@@ -75,5 +75,47 @@ client.on('message', message => {
   	}
 });
 
+client.on('message', message => {
+     if (message.author.bot) return;
+     if(message.content.toLowerCase().includes("lmao")) {
+               message.channel.send("i lowkey wanna die??? oof")
+  	}
+});
+
+client.on('message', message => {
+     if (message.author.bot) return;
+     if(message.content.toLowerCase().includes("gay")) {
+               message.channel.send("I  A M  G A Y !")
+  	}
+});
+
+client.on('message', message => {
+     if (message.author.bot) return;
+     if(message.content.toLowerCase().includes("fuck my life")) {
+               message.channel.send("LMAO SAME")
+  	}
+});
+
+client.on('message', message => {
+     if (message.author.bot) return;
+     if(message.content.toLowerCase().includes("kai is")) {
+               message.channel.send("i love kai lmao kms")
+  	}
+});
+
+client.on('message', message => {
+     if (message.author.bot) return;
+     if(message.content.toLowerCase().includes("fuck off")) {
+               message.channel.send("wow ok")
+  	}
+});
+
+client.on('message', message => {
+     if (message.author.bot) return;
+     if(message.content.toLowerCase().includes("emo")) {
+               message.channel.send("hecc im emo")
+  	}
+});
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);

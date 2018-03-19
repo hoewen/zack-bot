@@ -228,6 +228,35 @@ client.on('message', message => {
                message.channel.send("stop")
   	}
 });
+
+client.on('message', message => {
+     if (message.author.bot) return;
+     if(message.content.toLowerCase().includes("oh")) {
+               message.channel.send("im hungry wtf")
+  	}
+});
+
+client.on('message', message => {
+     if (message.author.bot) return;
+     if(message.content.toLowerCase().includes("furry")) {
+               message.channel.send("oh yes im a furry :tired_face: hecccc")
+  	}
+});
+
+client.on('message', message => {
+     if (message.author.bot) return;
+     if(message.content.toLowerCase().includes("ugh")) {
+               message.channel.send("eiuhgqirjsdfgutwhepojrngrthger")
+  	}
+});
+
+client.on('message', message => {
+     if (message.author.bot) return;
+     if(message.content.toLowerCase().includes("help")) {
+               message.channel.send(":/")
+  	}
+});
+
       
 
 // THIS  MUST  BE  THIS  WAY

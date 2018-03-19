@@ -56,13 +56,6 @@ client.on('message', message => {
 
 client.on('message', message => {
      if (message.author.bot) return;
-     if(message.content.toLowerCase().includes("XD")) {
-               message.channel.send("rawr xD")
-  	}
-});
-
-client.on('message', message => {
-     if (message.author.bot) return;
      if(message.content.toLowerCase().includes("mcr")) {
                message.channel.send("fuck yeah")
   	}
@@ -212,6 +205,13 @@ client.on('message', message => {
      if (message.author.bot) return;
      if(message.content.toLowerCase().includes("666")) {
                message.channel.send("mood")
+  	}
+});
+
+client.on('message', message => {
+     if (message.author.bot) return;
+     if(message.content.toLowerCase().includes("XD")) {
+               message.channel.send("rawr X D")
   	}
 });
       

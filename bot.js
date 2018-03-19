@@ -7,7 +7,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
      if (message.author.bot) return;
-     if(message.content.toLowerCase().includes("kai")) {
+     if(message.content.toLowerCase().includes("kai is")) {
                message.channel.send("EXCUSE ME I LOVE KAI")
   	}
 });
@@ -98,7 +98,7 @@ client.on('message', message => {
 
 client.on('message', message => {
      if (message.author.bot) return;
-     if(message.content.toLowerCase().includes("kai is")) {
+     if(message.content.toLowerCase().includes("kai can")) {
                message.channel.send("i love kai lmao kms")
   	}
 });
@@ -116,6 +116,29 @@ client.on('message', message => {
                message.channel.send("hecc im emo")
   	}
 });
+
+client.on('message', message => {
+     if (message.author.bot) return;
+     if(message.content.toLowerCase().includes("lol")) {
+               message.channel.send("PENIS!!")
+  	}
+});
+
+client.on('message', message => {
+     if (message.author.bot) return;
+     if(message.content.toLowerCase().includes("precious")) {
+               message.channel.send("HHHHH KAI IS PRECIOUS)
+  	}
+});
+         
+client.on('message', message => {
+     if (message.author.bot) return;
+     if(message.content.toLowerCase().includes("i'm hot")) {
+               message.channel.send("true lol")
+  	}
+});
+
+      
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);

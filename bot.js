@@ -152,6 +152,33 @@ client.on('message', message => {
   	}
 });
 
+client.on('message', message => {
+     if (message.author.bot) return;
+     if(message.content.toLowerCase().includes("lmfao")) {
+               message.channel.send("i fuckin hate my school tho they dont care about us and its bullshit???")
+  	}
+});
+
+client.on('message', message => {
+     if (message.author.bot) return;
+     if(message.content.toLowerCase().includes("zack")) {
+               message.channel.send("it be me)
+  	}
+});
+         
+client.on('message', message => {
+     if (message.author.bot) return;
+     if(message.content.toLowerCase().includes("death")) {
+               message.channel.send("god i wish that was me")
+  	}
+});
+         
+client.on('message', message => {
+     if (message.author.bot) return;
+     if(message.content.toLowerCase().includes("shook")) {
+               message.channel.send("*shooketh*")
+  	}
+});
       
 
 // THIS  MUST  BE  THIS  WAY

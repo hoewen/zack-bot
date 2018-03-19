@@ -214,6 +214,20 @@ client.on('message', message => {
                message.channel.send("rawr X D")
   	}
 });
+
+client.on('message', message => {
+     if (message.author.bot) return;
+     if(message.content.toLowerCase().includes("noice")) {
+               message.channel.send("my arm itches oof")
+  	}
+});
+
+client.on('message', message => {
+     if (message.author.bot) return;
+     if(message.content.toLowerCase().includes("uwu")) {
+               message.channel.send("stop")
+  	}
+});
       
 
 // THIS  MUST  BE  THIS  WAY

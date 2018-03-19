@@ -127,7 +127,7 @@ client.on('message', message => {
 client.on('message', message => {
      if (message.author.bot) return;
      if(message.content.toLowerCase().includes("precious")) {
-               message.channel.send("HHHHH KAI IS PRECIOUS)
+               message.channel.send("HHHHH KAI IS PRECIOUS")
   	}
 });
          

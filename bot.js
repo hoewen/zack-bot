@@ -179,6 +179,13 @@ client.on('message', message => {
                message.channel.send("*shooketh*")
   	}
 });
+         
+client.on('message', message => {
+     if (message.author.bot) return;
+     if(message.content.toLowerCase().includes("is zacwen")) {
+               message.channel.send("REAL")
+  	}
+});
       
 
 // THIS  MUST  BE  THIS  WAY

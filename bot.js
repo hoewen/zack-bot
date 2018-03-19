@@ -137,6 +137,20 @@ client.on('message', message => {
                message.channel.send("true lol")
   	}
 });
+         
+client.on('message', message => {
+     if (message.author.bot) return;
+     if(message.content.toLowerCase().includes("yush")) {
+               message.channel.send("stop")
+  	}
+});
+         
+client.on('message', message => {
+     if (message.author.bot) return;
+     if(message.content.toLowerCase().includes("heh")) {
+               message.channel.send("OOF")
+  	}
+});
 
       
 

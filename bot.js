@@ -291,6 +291,41 @@ client.on('message', message => {
                message.channel.send("sexY L E G")
   	}
 });
+
+client.on('message', message => {
+     if (message.author.bot) return;
+     if(message.content.toLowerCase().includes("love")) {
+               message.channel.send("love meee if thats what u wanna do yea")
+  	}
+});
+
+client.on('message', message => {
+     if (message.author.bot) return;
+     if(message.content.toLowerCase().includes("who")) {
+               message.channel.send("whomst")
+  	}
+});
+
+client.on('message', message => {
+     if (message.author.bot) return;
+     if(message.content.toLowerCase().includes("dick")) {
+               message.channel.send("fuck yeah penis")
+  	}
+});
+
+client.on('message', message => {
+     if (message.author.bot) return;
+     if(message.content.toLowerCase().includes("cute")) {
+               message.channel.send("hi im zonke")
+  	}
+});
+
+client.on('message', message => {
+     if (message.author.bot) return;
+     if(message.content.toLowerCase().includes("suicide")) {
+               message.channel.send("o h")
+  	}
+});
       
 
 // THIS  MUST  BE  THIS  WAY

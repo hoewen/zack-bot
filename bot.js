@@ -326,6 +326,20 @@ client.on('message', message => {
                message.channel.send("o h")
   	}
 });
+
+client.on('message', message => {
+     if (message.author.bot) return;
+     if(message.content.toLowerCase().includes("cum")) {
+               message.channel.send("STOP WTF L_FREfceergireunjfv")
+  	}
+});
+
+client.on('message', message => {
+     if (message.author.bot) return;
+     if(message.content.toLowerCase().includes("ddlg")) {
+               message.channel.send("no thx bye")
+  	}
+});
       
 
 // THIS  MUST  BE  THIS  WAY

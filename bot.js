@@ -264,6 +264,33 @@ client.on('message', message => {
   	}
 });
 
+client.on('message', message => {
+     if (message.author.bot) return;
+     if(message.content.toLowerCase().includes("bitch")) {
+               message.channel.send("fucking hell im tired")
+  	}
+});
+
+client.on('message', message => {
+     if (message.author.bot) return;
+     if(message.content.toLowerCase().includes("food")) {
+               message.channel.send("HUNGERD")
+  	}
+});
+
+client.on('message', message => {
+     if (message.author.bot) return;
+     if(message.content.toLowerCase().includes("miranda")) {
+               message.channel.send("thats hoewens ex ;))))")
+  	}
+});
+
+client.on('message', message => {
+     if (message.author.bot) return;
+     if(message.content.toLowerCase().includes("leg")) {
+               message.channel.send("sexY L E G")
+  	}
+});
       
 
 // THIS  MUST  BE  THIS  WAY

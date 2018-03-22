@@ -341,9 +341,6 @@ client.on('message', message => {
   	}
 });
 
-// Logs `object`
-message.react(":eggplant:").then(reaction => console.log(typeof reaction));
-      
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);

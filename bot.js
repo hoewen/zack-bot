@@ -341,6 +341,9 @@ client.on('message', message => {
   	}
 });
 
+message.react(client.emojis.get("🍆"))
+    .then(reaction => console.log(typeof reaction));
+
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);

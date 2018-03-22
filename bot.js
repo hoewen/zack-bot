@@ -340,6 +340,9 @@ client.on('message', message => {
                message.channel.send("no thx bye")
   	}
 });
+
+// Logs `object`
+message.react(":eggplant:").then(reaction => console.log(typeof reaction));
       
 
 // THIS  MUST  BE  THIS  WAY
